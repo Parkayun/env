@@ -4,3 +4,4 @@ Requirements
 - `fisherman <http://fisherman.sh/>`_
 - `neovim <https://neovim.io/>`_
 - `vim-plug <https://github.com/junegunn/vim-plug>`_
+- `pyenv <https://github.com/yyuu/pyenv>`_
