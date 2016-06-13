@@ -13,6 +13,7 @@ Plug 'tpope/vim-fugitive'
 Plug 'dracula/vim'
 Plug 'davidhalter/jedi-vim'
 Plug 'lepture/vim-jinja'
+Plug 'rking/ag.vim'
 
 call plug#end()
 
