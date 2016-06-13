@@ -1,4 +1,4 @@
-call plug#begin('~/.config/nvim/plugged') 
+call plug#begin('~/.config/nvim/plugged')
 
 Plug 'altercation/vim-colors-solarized'
 Plug 'jdkanani/vim-material-theme'
@@ -10,6 +10,9 @@ Plug 'scrooloose/nerdtree'
 Plug 'jistr/vim-nerdtree-tabs'
 Plug 'kien/ctrlp.vim'
 Plug 'tpope/vim-fugitive'
+Plug 'dracula/vim'
+Plug 'davidhalter/jedi-vim'
+Plug 'lepture/vim-jinja'
 
 call plug#end()
 
@@ -20,9 +23,10 @@ set listchars=tab:↹\
 
 set encoding=utf-8 fileencodings=ucs-bom,utf-8,cp949,korea,iso-2022-kr
 
-filetype plugin on
+filetype plugin indent on
 
 au FileType html   setl ts=2 sw=2 sts=2
+au BufNewFile,BufRead *.html,*.htm,*.shtml,*.stm set ft=jinja
 
 set colorcolumn=120
 set nu
@@ -33,4 +37,3 @@ syntax on
 set clipboard=unnamed
 
 map <Leader>nt <ESC>:NERDTree<CR>
-
