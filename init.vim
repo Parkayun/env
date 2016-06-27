@@ -14,6 +14,7 @@ Plug 'dracula/vim'
 Plug 'davidhalter/jedi-vim'
 Plug 'lepture/vim-jinja'
 Plug 'rking/ag.vim'
+Plug 'wakatime/vim-wakatime'
 
 call plug#end()
 
