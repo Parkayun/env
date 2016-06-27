@@ -1,11 +1,6 @@
-alias 'vi=nvim'
-
-export PATH=~/.pyenv/shims:$PATH
-
-# For fish shell 2.2.0
-for file in ~/.config/fish/conf.d/*.fish
-    source $file
-end
-
 set fish_greeting ""
+set PATH ~/.pyenv/shims $HOME/Library/Python/2.7/bin $PATH
 
+source ~/.config/fish/autoenv.fish
+
+alias 'vi=nvim'
