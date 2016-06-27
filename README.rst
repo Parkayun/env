@@ -6,3 +6,4 @@ Requirements
 - `vim-plug <https://github.com/junegunn/vim-plug>`_
 - `pyenv <https://github.com/yyuu/pyenv>`_
 - `Source Code Pro <https://github.com/adobe-fonts/source-code-pro>`_
+- `AutoenvFish <https://github.com/idan/autoenvfish>`_
