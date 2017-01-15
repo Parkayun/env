@@ -28,6 +28,7 @@ set encoding=utf-8 fileencodings=ucs-bom,utf-8,cp949,korea,iso-2022-kr
 filetype plugin indent on
 
 au FileType html   setl ts=2 sw=2 sts=2
+au FileType js     setl ts=2 sw=2 sts=2
 au BufNewFile,BufRead *.html,*.htm,*.shtml,*.stm set ft=jinja
 
 set colorcolumn=120
